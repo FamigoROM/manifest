@@ -390,7 +390,6 @@
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" />
   <project path="libcore" name="android_libcore" remote="cm" />
   <project path="libnativehelper" name="android_libnativehelper" groups="pdk-java" remote="cm" />
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" />
   <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" remote="cm" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cm" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" />
@@ -399,46 +398,25 @@
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cm" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="cm" />
   <project path="packages/apps/CMAccount" name="android_packages_apps_CMAccount" remote="cm" />
-  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" />
-  <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="cm" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cm" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" remote="cm" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="cm" />
-  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cm" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="cm" />
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="cm" />
-  <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="cm" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" remote="cm" />
-  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" />
-  <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" remote="cm" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" />
-  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" />
-  <project path="packages/apps/VideoEditor" name="android_packages_apps_VideoEditor" remote="cm" />
-  <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" />
   <project path="packages/apps/VoicePlus" name="android_packages_apps_VoicePlus" remote="cm" />
   <project path="packages/experimental" name="android_packages_experimental" remote="cm" />
-  <project path="packages/inputmethods/OpenWnn" name="android_packages_inputmethods_OpenWnn" remote="cm" />
-  <project path="packages/inputmethods/PinyinIME" name="android_packages_inputmethods_PinyinIME" remote="cm" />
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" remote="cm" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="cm" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cm" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" remote="cm" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="cm" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" remote="cm" />
-  <project path="packages/screensavers/Basic" name="android_packages_screensavers_Basic" remote="cm" />
-  <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" remote="cm" />
   <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" remote="cm" />
-  <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="cm" />
-  <project path="packages/wallpapers/Galaxy4" name="android_packages_wallpapers_Galaxy4" remote="cm" />
-  <project path="packages/wallpapers/HoloSpiral" name="android_packages_wallpapers_HoloSpiral" remote="cm" />
-  <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" remote="cm" />
-  <project path="packages/wallpapers/MagicSmoke" name="android_packages_wallpapers_MagicSmoke" remote="cm" />
-  <project path="packages/wallpapers/MusicVisualization" name="android_packages_wallpapers_MusicVisualization" remote="cm" />
-  <project path="packages/wallpapers/NoiseField" name="android_packages_wallpapers_NoiseField" remote="cm" />
-  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" />
   <project path="prebuilt" name="android_prebuilt" remote="cm" />
   <project path="sdk" name="android_sdk" remote="cm" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="cm" />
@@ -476,14 +454,12 @@
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="pac" revision="pac-4.4" />
-  <project path="packages/apps/GooglePacman" name="android_packages_apps_GooglePacman" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/HALO" name="HALO" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacConsole" name="pac_game_console" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PAClauncher" name="android_packages_apps_PAClauncher" remote="pac" revision="pac-4.4" />
-  <project path="packages/apps/PacPapers" name="android_packages_apps_PacPapers" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/PacStats" name="android_packages_apps_PacStats" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pac" revision="pac-4.4" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="pac" revision="pac-4.4" />
@@ -495,9 +471,5 @@
   <project path="vendor/pac" name="android_vendor_pac" remote="pac" revision="pac-4.4" >
     <copyfile src="tools/build-pac.sh" dest="build-pac.sh" />
   </project>
-
-  <!-- Device extras: legacy support -->
-  <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" revision="cm-10.2" />
-  <project path="hardware/qcom/media-legacy" name="androidarmv6/android_hardware_qcom_media_legacy" revision="cm-10.2" />
 
 </manifest>
